@@ -1,0 +1,543 @@
+body
+{
+    background-color: #ddd;
+    margin: auto;
+}
+
+.entete
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: flex;
+}
+
+.tete
+{
+    text-align: left;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(138, 245, 129);
+}
+
+.table
+{
+    color: blue;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.matiere
+{
+    transition: 2s;
+    text-decoration: underline;
+}
+
+.make
+{
+    text-decoration: underline;
+    padding: .9rem;
+    font-size: 30px;
+}
+
+.som
+{
+    font-size: 43px;
+}
+.avec, .g
+{
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.f
+{
+    text-align: center;
+    font-size: 40px;
+    font-family: serif;
+}
+.h, .k, .m
+{
+    text-align: center;
+    font-size: 40px;
+    font-family: serif;
+}
+
+section, aside
+{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    text-align: justify
+}
+
+.image
+{
+    justify-content: space-between;
+}
+
+footer
+{
+    background-color:#0082e6 ;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+@media(max-width:600px) 
+{
+    .tete
+{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    background-color: none;
+    text-decoration: none;
+}
+.center
+{
+    text-align: left;
+}
+}
+
+.center
+{
+    text-align: center;
+}
+
+.meute
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    
+}
+
+.nayou
+{
+    font-weight: bold;
+}
+
+.ousmane
+{
+    font-weight: bold;
+}
+
+.fleft
+{
+    float: left;
+}
+
+.centre
+{
+    text-align: left;
+    font-weight: bold;
+    font-size: 0.6cm;
+}
+
+.cetre
+{
+    text-align: left;
+    font-weight: bold;
+    font-size: 0.6cm;
+}
+
+.bt
+{
+    padding-bottom: 10px;
+}
+
+@media(max-width:1325px) 
+{
+    .fleft
+    {
+        float: none;
+    }
+}
+
+.tt
+{
+    color: darkblue;
+
+}
+
+nav 
+{
+    display: flex;
+    justify-content:space-between ;
+
+}
+
+
+
+.jack
+{
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(138, 245, 129);
+}
+
+.op
+{
+    color: blue;
+}
+
+nav .links
+{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav .links .dieu
+{
+    color: white;
+    text-decoration: none;
+}
+
+nav .links .dieu:hover
+{
+    transition: .3s;
+    color: blue;
+}
+
+button
+{
+    border: none;
+    background: blue;
+    margin:35px ;
+    border-radius: 30px;
+    color: white;
+    transition: .3s;
+    font-weight: bold;
+    font-size: 12px;
+    justify-items: 12px;
+}
+
+button:hover
+{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+@media (max-width:868px)
+{
+    
+}
+
+.mixte
+{
+    background-color: #8af581;
+    border: none;
+    background: rgb(138, 245, 129);
+    margin:25px ;
+    border-radius: 40px;
+    color: white;
+    transition: .3s;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    font-size: 16px;
+    justify-items: 12px;
+}
+
+.mixte:hover
+{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.textera
+{
+    background-color: #ddd;
+    padding: 9px;
+    opacity: 2;
+}
+
+.exe
+{
+    color: white;
+    font-size: 17px;
+    margin: 7px 13px;
+    border-radius:3px 
+}
+
+.menu
+{
+    padding-bottom: 3px;
+}
+
+.did{
+    font-size: 17px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+}
+.checkbtn
+{
+    font-size: 30px;
+    line-height: 80px;
+    margin-right: 40px;
+    display: none;
+}
+#check
+{
+    display: none;
+}
+
+@media (max-width:898px)
+{
+    .did
+    {
+        display: none;
+    }
+    .checkbtn
+    {
+        display: block;
+    }
+    .links
+    {
+        position: fixed;
+        width: 100%;
+        height: 100vh  ;
+        
+    }
+}
+
+
+
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+
+}
+
+.op
+{
+    color:rgb(138, 245, 129) ;
+}
+
+body
+{
+    font-family: montserrat ;
+}
+nav
+{
+    background: #0082e6;
+    height: 70px;
+    width: 100%;
+}
+
+label.logo
+{
+    color: white;
+    font-size: 40px;
+    padding:0 100px;
+    font-weight: bold;
+    margin-bottom: 100px 0 ;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-style: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+
+}
+
+a.active,a:hover
+{
+    background: #1b9bff;
+    transition: .5s;
+
+}
+
+.checkbtn
+{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check
+{
+    display: none;
+}
+
+@media (max-width:952px)
+{
+    label.logo
+    {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    nav ul li a
+    {
+        font-size: 16px;
+
+    }
+
+}
+
+@media (max-width:1070px)
+{
+
+    section, aside, ::-moz-focus-outer{
+        display: none;
+    }
+    .checkbtn
+    {
+        display: block ;
+    }
+
+    .image
+    {
+        width: 10px;
+    }
+    ul
+    {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 67px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li
+    {
+    display: block;
+    }
+
+    nav ul li a 
+    {
+        font-size: 20px;
+        margin: 59px;
+        line-height: 50px;
+    }
+
+    a:hover,a.active
+    {
+        background: none;
+        color: rgb(138, 245, 129);
+    }
+
+    #check:checked ~ ul
+    {
+        left: 0;
+    }
+}
+
+.bouton
+
+{
+    background-color: rgb(138, 245, 129);
+    border: none;
+    background: rgb(138, 245, 129);
+    margin:25px ;
+    border-radius: 40px;
+    color: white;
+    transition: .3s;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    font-size: 16px;
+    justify-items: 12px;
+}
+
+.bouton:hover
+{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+
+.boite
+{
+    display: flexbox;
+    border: 1px solid black;
+    background-color: none;
+    color: black;
+    font-weight: bolder;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.containerac
+{
+    display: grid;
+    background-color: none;
+    grid-auto-rows: 50px;
+    border: 1px none none;
+    grid-template-rows: 250px 250px;
+    grid-template-columns: 250px 250px  250px;
+    grid-gap: 50px 90px;
+    padding-bottom: 120px;justify-content: center;
+
+}
+
+.jss
+{
+    font-weight: bolder;
+    margin: none;
+    padding-left: none;
+    font-size: 28px;
+    padding-bottom: 120px;
+    padding-right: 100px;
+    
+    
+}
+
+.containerboite
+{
+    border: none;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 400px 400px;
+
+}
+.boite
+{
+    display: grid;
+    border: none;
+
+}
+
+.fou
+{
+    margin-left: 80px;
+    padding-right: 20px;
+    margin-left: -399px;
+
+}
+.cc
+{
+    margin-left: 80px;
+    padding-right: 20px;
+    margin-left: -730px;
+}
